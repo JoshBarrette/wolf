@@ -1,10 +1,11 @@
 #define GLAD_GL_IMPLEMENTATION
 #include <GLFW/glfw3.h>
-#include <GLFW/linmath.h>
 #include <glad/glad.h>
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
+
+#include "linmath.h"
 
 typedef struct Vertex {
     vec2 pos;
